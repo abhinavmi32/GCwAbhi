@@ -65,6 +65,21 @@
       line-height: 1.7;
       margin-bottom: 20px;
     }
+    .file-link a {
+      display: inline-block;
+      background: #0052D4;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.4s ease;
+    }
+    .file-link a:hover {
+      background: #4364F7;
+      transform: scale(1.1);
+      box-shadow: 0 8px 15px rgba(0, 82, 212, 0.4);
+    }
     footer {
       background: #ffffff;
       color: #0052D4;
@@ -87,10 +102,9 @@
   <nav> <a href="index.html">Home</a> <a href="about.html">About</a> <a href="Contact.html">File Links</a> 
   </nav> 
   <main> 
-   <h1>File Links </h1> 
-   <p> </p>
-   <h2><a href="https://www.mediafire.com/file/mfrmkg4gb6f99v8/webcode.zip/file" target="_blank"> Website development files</a></h2> 
-   <p></p> 
+   <h1>File Links</h1> 
+   <div class="file-link"> <a href="https://www.mediafire.com/file/mfrmkg4gb6f99v8/webcode.zip/file" target="_blank">website development code</a> 
+   </div> 
   </main> 
   <footer> 
    <p>© 2025 GCW Abhi | Stay Connected</p> 
