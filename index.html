@@ -3,39 +3,81 @@
  <head> 
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>My Simple Website</title> 
+  <title>GCW Abhi - Official Website</title> 
   <style>
+    /* Base styles */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      color: #333;
     }
     header {
-      background: #333;
-      color: #fff;
-      padding: 20px 0;
+      background: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC);
+      color: white;
+      padding: 40px 0;
       text-align: center;
+      letter-spacing: 2px;
+    }
+    .logo {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .tagline {
+      font-size: 18px;
+      margin-top: 8px;
+      font-style: italic;
     }
     nav {
-      background: #444;
-      padding: 10px;
+      background: #ffffff;
+      padding: 15px 0;
       text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     nav a {
-      color: white;
-      margin: 0 15px;
+      display: inline-block;
+      color: #0052D4;
+      margin: 0 20px;
+      padding: 10px 20px;
       text-decoration: none;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: all 0.4s ease;
+      background: #e0e0e0;
+    }
+    nav a:hover {
+      background: #0052D4;
+      color: white;
+      transform: scale(1.1);
+      box-shadow: 0 8px 15px rgba(0, 82, 212, 0.4);
     }
     main {
-      padding: 20px;
+      padding: 50px 20px;
       background: white;
+      max-width: 1000px;
+      margin: 30px auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    main h2 {
+      color: #0052D4;
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    main p {
+      font-size: 18px;
+      line-height: 1.7;
+      text-align: center;
     }
     footer {
-      background: #333;
-      color: white;
+      background: #ffffff;
+      color: #0052D4;
       text-align: center;
-      padding: 10px 0;
+      padding: 20px 0;
+      font-size: 14px;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
       position: fixed;
       bottom: 0;
       width: 100%;
@@ -44,16 +86,22 @@
  </head> 
  <body> 
   <header> 
-   <h1>Welcome to My Website</h1> 
+   <div class="logo">
+     GCW Abhi 
+   </div> 
+   <div class="tagline">
+     Gaming | Challenges | World of Abhi 
+   </div> 
   </header> 
-  <nav> <a href="index.html">Home</a> <a href="about.html">About</a> <a href="Contact.html">contact</a> 
+  <nav> <a href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">File links</a> 
   </nav> 
   <main> 
-   <h2>Onwer</h2> 
-   <p>This site is made by Abhinav</p> 
+   <h1><a href="https://www.youtube.com/@GCWAbhi" target="_blank">Go to channel</a> </h1> 
+   <h2>About the Creator</h2> 
+   <p>Welcome to <strong>GCW Abhi</strong>! Dive into the thrilling world of gaming, epic challenges, and endless entertainment. Join Abhinav on his exciting YouTube journey. Stay connected for new adventures!</p> 
   </main> 
   <footer> 
-   <p>© 2025 My Simple Website</p> 
+   <p>© 2025 GCW Abhi | Crafted with Passion</p> 
   </footer> 
- 
-</body></html>html>
+ </body>
+</html>
